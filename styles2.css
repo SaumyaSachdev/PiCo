@@ -1,0 +1,159 @@
+.container2 {
+  position: relative;
+  width: 340px;
+  overflow: hidden;
+
+}
+
+.image2 {
+  display: block;
+  position: relative;
+  top: 10px;
+  height: 340px;
+  max-width: 400px;
+  border-radius: 5%;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 10px;
+  left: 100%;
+  right: 10px;
+  background-color:  #17202a;
+ 
+  overflow: hidden;
+  width: 0;
+  border-radius: 5%;
+  height: 340px;
+  transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+  width: 100%;
+  left: 0;
+}
+
+/*.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}*/
+
+
+
+.com-space-d {
+  margin-left: 10px;
+ 
+  width: 330px;
+  height: 330px;
+}
+
+.com-in-d { /* for  form box  */
+ 
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 330px;
+}
+
+.dis-comm-d {
+  background-color:  #d4e6f1 ;
+ 
+  margin-left: 10px;
+
+}
+
+.com-img-p {
+  margin-left: 3px;
+
+}
+
+.com-t-d {
+
+}
+
+.boo {
+
+  position: relative;
+  left: 90px;
+  background-color: white;
+  height: 570px;
+  width: 1123px;
+  overflow: scroll;
+}
+
+.form-control {
+  width: 300px;
+}
+
+#fp-ctrl {
+  width: 400px;
+}
+
+.photo-body {
+  background-color:  #d5d8dc;
+ font-family: 'Merriweather', serif;
+}
+
+.wasting-space {
+  position: relative;
+  height: 190px;
+  width: 100%;
+}
+
+.det-ails {
+  opacity: 0.8;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+}
+
+/*          the details thing in photo.php          */
+#bo-img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 300px;
+    margin-top: 10px;
+    float: left;
+}
+
+#bo-dp {
+  height: 180px;
+  max-height: 180px;
+}
+
+#bo-name {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#bo-con {
+  position: absolute;
+  right: 350px;
+  margin-top: 30px;
+  
+  color: black;
+  
+}
+
+#bo-city {
+  margin-top: -7px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#bo-indi {
+  font-size: 25px;
+  font-weight: bold;
+}
+

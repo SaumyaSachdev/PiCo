@@ -1,0 +1,555 @@
+.body {
+	font-family: 'Merriweather', serif;
+}
+
+/*           LOGIN           */
+
+.login-i {
+	
+	width: 350px;
+
+	height: 140px;
+	position: relative;
+	top: 20px;
+	left: 33px;
+}
+
+.l-logo-t {
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	
+	font-size: 100px;
+	color: black;
+	float: left;
+}
+
+.l-logo-i {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%; 
+	overflow: hidden;
+	position: relative;
+	top: 40px;
+	right: 40px;
+
+}
+
+.l-logo {
+	height: 75px;
+	max-width: 75px;
+}
+
+.loginc {
+	width: 40%;
+	
+}
+
+.btn-primary {
+	width: 70%;
+	margin-top: 20px;
+}
+.submit-button {
+
+	background-color: #1b4f72;
+	color: white;
+	width: 70%;
+
+}
+.stuff{
+	
+	width: 70%;
+	height: 50px;
+}
+
+
+.alert-danger {
+	color: #fb0a02;
+}
+
+
+.login-op {
+	padding-top: 10px;
+	margin-top: 40px;
+	height: 100px;
+}
+
+.psw {
+	margin-top: 10px;
+}
+
+/*                   HOME PAGE                     */
+
+/*side nav*/
+
+.the-logo-i {
+	
+	width: 40px;
+	height: 40px;
+	border-radius: 50%; 
+	overflow: hidden;
+	position: relative;
+	top: 5px;
+
+}
+.l-o-g-o {
+	position: absolute;
+	left: 75px;
+	top: 35px;
+	width: 200px;
+	height: 60px;
+	
+}
+
+.logo-t {
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	margin-top: -20px;
+	font-size: 60px;
+	color: white;
+	float: left;
+}
+
+.the-logo {
+
+	height: 40px;
+	max-width: 40px;
+	
+}
+
+.side-nav {
+	background-color: #0f334b;
+	width: 300px;
+	height: 700px;
+	color: white;
+	text-decoration: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+
+}
+
+#dp {
+	position: absolute;
+	top: 120px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.nav-text {
+	position: absolute;
+	top: 340px;
+	
+
+}
+
+#name {
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 95%;
+}
+
+#uname {
+	margin-top: 18px;
+	text-align: center;
+	font-size: 25px;
+}
+
+#nav-link {
+	
+	text-align: center;
+	font-size: 23px;
+
+}
+
+.nav-text a{
+	text-decoration: none;
+	color: white;
+	line-height: 95%;
+
+}
+
+a:hover {
+    color:  #f4d03f ;
+}
+
+/*top nav*/
+
+
+
+.top-nav {
+	background-color: #0f334b;
+	height: 100px;
+	padding-top: 25px;
+}
+
+.nav-ele {
+	width: 50%;
+	height: 70px;
+	position: absolute;
+	left:400px;
+}
+
+.pic-upload {
+	text-decoration: none;
+	color: white;
+}
+
+
+/* modal */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+.submit-pic {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: auto;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+
+.upload-button {
+    border: none;
+    border-radius: 3%;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    color: #000000;
+    width: 100px;
+    height: 40px;
+    background-color:  #f4d03f;/*#d5dbdb;*/
+    margin-top: -10px;
+    position: relative;
+    left: 200px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    color: white;
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+} 
+
+
+/* main display */
+
+.main-display {
+	position: absolute;
+	right: 0px;
+	bottom:0px;
+	height: 85%;
+	width: 78%;
+	border-radius: 1%;
+	background-color:  #d5dbdb;
+	overflow-y: scroll;
+
+}
+
+#post-pic {
+	min-height: 325px;
+	max-width: 425px;
+	overflow: hidden;
+	border-radius: 1%;
+
+}
+
+.post {
+	height: 400px;
+	width: 70%;
+	overflow: hidden;
+	background-color: white; /*yellow*/
+	margin-top: 40px;
+	border-radius: 5%;
+
+}
+
+#pic-space {
+	background-color: white; /*red*/
+	height: 325px;
+	width: 325px;
+	margin-top: 35px;
+	overflow: hidden;
+	/*margin-left: -280px;*/
+	position: absolute;
+	right: 490px;
+}
+
+.space {
+
+	background-color:  #2c3e50 ; /* pink */
+	height: 340px;
+	width:280px;
+	position: absolute;
+	right: 200px;
+	border-radius: 20px;
+	margin-top: 30px;
+
+
+}
+.com-space {
+	
+	height: 250px;
+	width: 280px;
+	border-radius: 3%;
+	overflow-y: scroll;	
+
+}
+
+.cap {
+	 /*blue*/
+	height: 70px;
+	width: 280px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 3%;
+
+}
+
+/* com */
+
+#t-dp{
+	height: 80px;
+	max-width: 80px;
+	
+}
+.tny-dp{
+	margin-left: 10px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+}
+
+#tny-uname {
+	position: relative;
+	right: 20px;
+	top: 10px;
+
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.com-in {
+	height: 50px;
+	width: 100%;
+	
+}
+
+#com-box {
+	width: 210px;
+	border-radius: 10px;
+	height:40px;
+}
+/*                       Display comment                        */
+
+.dis-comm {
+	background-color: #d5d8dc;
+	min-height: 40px;
+	width: 260px;
+	border-radius: 10px;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+.com-img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left; 
+}
+
+#com-img-img {
+	height: 40px;
+	max-width: 40px;
+}
+
+.com-t {
+	font-size: 20px;
+	text-align: left;
+	margin-left: 45px;
+	padding-top: 5px;
+
+	width: 200px;
+	
+}
+
+/* display photo */
+
+.dis-con {
+	max-width: 600px;
+	max-height: 600px;
+	position: absolute;
+	left: 800px;
+	top: 100px;
+	background-color: #0f334b;
+
+}
+
+#dp-img {
+	height: 600px;
+	max-width: 600px;
+	opacity: 0.7;
+	border-radius: 50%;
+
+}
+
+#dp-img:hover {
+	opacity: 1;
+	border-radius: 0;
+}
+.dis-con:hover {
+	left: 700px;
+}
+
+/************* container */
+.other-pic-con {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-color: #0f334b;
+	height: 560px;
+	width: 820px;
+	overflow-y: scroll;
+}
+
+
+/*.pics{
+	height: 260px;
+	width: 260px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #d5dbdb;
+	border-radius: 5%;
+	transition: transform .2s;
+}
+*/
+/*.the-pic{
+	height: 350px;
+	margin-top: 5px;
+	max-width: 350px;
+	border-radius: 5%;
+}
+*/
+
+
+.pics {
+	height: 360px;
+	width: 360px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 5%;
+	background-color:  #d5d8dc;
+	padding-left: 10px;
+}
+
+/*.pics:hover {
+	transform: scale(1.5);
+}
+
+*/
